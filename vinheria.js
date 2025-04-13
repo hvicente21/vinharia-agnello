@@ -18,43 +18,27 @@ else{
     tipoV2 = "Ele é um vinho branco"
     tipoV3 = "Ele é um vinho rosé"
     tipoV4 = "Ele é um vinho meio-seco"
-    safraV1 = "e é da safra de 2022 (Vinho Jovem)"
-    safraV2 = "e é da safra de 2018 (Vinho Amadurecido)"
-    safraV3 = "e é da safra de 2014 (Vinho Antigo)"
-    safraV4 = "e é da safra de 2011 (Vinho Antigo)"
+    safraV1 = "e é da safra de 2022"
+    safraV2 = "e é da safra de 2018"
+    safraV3 = "e é da safra de 2014"
+    safraV4 = "e é da safra de 2011"
     qntdV1 = 4
-    qntdV2 = 9
-    qntdV3 = 6
-    qntdV4 = 11
-
-    
+    qntdV2 = 7
+    qntdV3 = 5
+    qntdV4 = 1
     console.log("Esses sao os vinhos no nosso estoque: " + vinho1 + ", " + vinho2 + ", " + vinho3 + ", " + vinho4 + ".")
-   
-    
-nomeDoVinho = prompt("Qual vinho você gostaria? ")
-    //Verificação de estoque
-    if (nomeDoVinho == vinho1)
-    console.log(tipoV1 + ", " + safraV1 + ", " + "Quantidade en estoque: " + qntdV1 )
-else if (qntdV1<5)
-    console.log("QUANTIDADE EM ESTOQUE BAIXA!!!")
-
-else if (nomeDoVinho == vinho2)
-    console.log(tipoV1 + ", " + safraV1 + ", " + "Quantidade em estoque: " + qntdV2 )
-else if (qntdV2<5)
-    console.log("QUANTIDADE EM ESTOQUE BAIXA!!!")
-
-else if (nomeDoVinho == vinho3)
-    console.log(tipoV1 + ", " + safraV1 + ", " + "Quantidade em estoque: " + qntdV3 )
-else if (qntdV3<5)
-    console.log("QUANTIDADE EM ESTOQUE BAIXA!!!")
-
-else if (nomeDoVinho == vinho4)
-    console.log(tipoV1 + ", " + safraV1 + ", " + "Quantidade em estoque: " + qntdV4 )
-else (qntdV4<5)
-    console.log("QUANTIDADE EM ESTOQUE BAIXA!!!")
-    
+    nomeDoVinho = prompt("Qual vinho voce gostaria?")
+    if (nomeDoVinho == vinho1){
+        console.log(tipoV1 + ", " + safraV1 + ", "  )
+    }
+    else if(nomeDoVinho == vinho2){
+        console.log(tipoV2 + ", " + safraV2 + ", "  )
+    }
+    else if(nomeDoVinho == vinho3){
+        console.log(tipoV3 + ", " + safraV3 + ", "  )
+    }
+    else{
+        console.log(tipoV4 + ", " + safraV4 + ", "  )
+    }
 }
-
-
-
 
