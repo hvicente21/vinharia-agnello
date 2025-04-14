@@ -1,0 +1,35 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte refinada e clássica */
+  body {
+      font-family: 'Georgia', serif;
+      background-color: #f4f1ee;
+      color: #2c2c2c;
+      line-height: 1.6;
+      padding: 40px;
+  }
+
+
+  /* Título principal */
+  h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      color: #8b0000;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #8b0000;
+      display: inline-block;
+      padding-bottom: 10px;
+  }
+
+  /* Parágrafo elegante */
+  p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin-bottom: 30px;
+      color: #333;
+ }
