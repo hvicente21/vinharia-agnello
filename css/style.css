@@ -1,0 +1,16 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte refinada e clássica */
+  body {
+      font-family: 'Georgia', serif;
+      background-color: #f4f1ee;
+      color: #2c2c2c;
+      line-height: 1.6;
+      padding: 40px;
+  }
+  
