@@ -1,3 +1,4 @@
+window.onload = function () {
 //Cadastrando Usuario
 alert("Seja Bem-Vindo(a) a Vinharia Agnello")
 let nomeUsuario = prompt("Digite seu nome para realizarmos o cadastro")
@@ -43,6 +44,5 @@ else{
     }
     }
 
-
-
+};
 
